@@ -2,7 +2,7 @@ const myName = "dan";
 const myStr = "My name is " + myName + " and I am well!";
 console.log(myStr)
 
-const firstLetterOfFirstName = "";
+let firstLetterOfFirstName = "";
 const firstName = "Dan";
 firstLetterOfFirstName = firstName[0];
 
