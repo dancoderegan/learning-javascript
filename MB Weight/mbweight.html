@@ -1,41 +1,54 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<title>How Many Big Mary's Do YOU Weigh?! </title>
+	<title>The Only Weight You Need to Know</title>
 	<link rel="stylesheet" type="text/css" href="stylemb.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 	<div id="container">
-       
-	<div id="main">
-		<img class="right snapshot" src="images/bigmarypic1.png" width="225" height="225" alt="big mary sandwich"/>
+		
+		<div id="main">
+			
+			<h1>How Many Big Mary's do you Weigh?</h1>
+
+			<img class="snapshot" src="images/bigmarypic1.png" width="225" height="225" alt="big mary sandwich"/>
 	
-		<h1 class=lowercase> How many Big Mary's do you weigh?! </h1>
-	
-		<p>Enter your weight in pounds to see your weight equivalent in Big Marys.
-        </p>
-     </div>
-     
-        <form class = "weightInput-form">
-        <label for = "amount" > Weight In Pounds</label>;
-        <input type = "number" name = "amount" id = "amount"
-        placeholder = "150" />
-        <button type = "submit" class = "btn"> Get Mary'd</button>
-    </form>
-        
-        <div id="priority">
-        <p class=lowercase>Weight output box</p>
-        </div>
+			<p>Enter your weight in pounds below to see how many Big Mary's you weigh.</p>
+			
+			<div id = "weightEntry">
+				<label class = "amount"> lbs.
+				<input type = "number" name = "amount" id = "amount"
+				placeholder = "150" />
+    			</label>
+			</div>
+
+			<div id = "pickleChoice">
+				<label class="pickleCheck"> Select if you like a pickle on your Big Mary.
+				<input type="checkbox">
+				<span class="checkmark"></span>
+				</label>	  	
+			</div>
+			
+			<p id="result"></p>
+		
+		</div>
+    
 	</div>
 	
 	<div id="footer">
-		
-	<p class=uppercase>webpage design &#169; 2021 by Daniel O'Regan at <a href=https://goo.gl/maps/vZsXYKwm5511D8n26>his house</a> (St. John's, Newfoundland, Canada)</p>
+
+		<p class=uppercase>webpage design by Daniel O'Regan at <a href=https://goo.gl/maps/vZsXYKwm5511D8n26>his house</a> (St. John's, Newfoundland, Canada)</p>
+	
 	</div>
-	</div>
+
+<script src="bigmary.js"></script>
+
 </body>
 
 </html>
