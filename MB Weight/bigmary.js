@@ -18,8 +18,9 @@ inputElement.addEventListener('change', (event) => {
 resultElement.textContent = `You weigh ${result} Big Marys`;
 });
 
-/* pickle 
+/*
 function pickleWeight (result) {
     return (result + (result * 0.0154));
 }
+
 */
